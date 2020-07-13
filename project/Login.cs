@@ -18,6 +18,7 @@ namespace project
 		{
 			InitializeComponent();
 		}
+		//baglanti bgl = new baglanti();
 		SqlConnection baglanti;
 		SqlCommand komut;
 		//SqlDataAdapter da;

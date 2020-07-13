@@ -53,6 +53,8 @@
     <Compile Include="Anasayfa.Designer.cs">
       <DependentUpon>Anasayfa.cs</DependentUpon>
     </Compile>
+    <Compile Include="baglanti.cs" />
+    <Compile Include="CodeFile1.cs" />
     <Compile Include="denemeDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

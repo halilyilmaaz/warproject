@@ -24,7 +24,7 @@ namespace project
 		{
 			InitializeComponent();
 		}
-
+		//baglanti bgl = new baglanti();
 		// Ayarlar Butonu
 		private void button1_Click(object sender, EventArgs e)
 		{
@@ -50,7 +50,10 @@ namespace project
 
 		// -------------------------------ANASAYFA-LOAD-------------------------------
 		private void Anasayfa_Load(object sender, EventArgs e)
-		{ tab_grup_isimleri_ekleme();
+		{
+			//SqlConnection conn = new SqlConnection(bgl.Adres);
+
+			tab_grup_isimleri_ekleme();
 			label1.Text = kullanici;
 
 			// Kasiyer Yetki Kontrolu
@@ -66,6 +69,7 @@ namespace project
 			tablarin_indexinden_buton_cekme();
 			hesap();
 			
+
 		}
 
 		public void hesap()

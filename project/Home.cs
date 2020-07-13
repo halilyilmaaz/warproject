@@ -23,7 +23,7 @@ namespace project
 		SqlConnection baglanti;
 		SqlCommand komut;
 		//SqlDataAdapter da;
-
+		//baglanti bgl = new baglanti();
 
 
 		private void barkodsuz_kaydet_Click(object sender, EventArgs e)
@@ -331,6 +331,7 @@ namespace project
 		{
 			grafik_analiz grafik_sayf = new grafik_analiz(); grafik_sayf.Show();
 		}
+
 		
 	}
 }
