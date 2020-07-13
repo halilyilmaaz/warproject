@@ -1,3 +1,5 @@
 Order System.
 You can use cafe, pub, restaurant or dormitory canteen.
-Version : Beta
+Setup : Not yet created. Just file name
+
+Version : -Beta
